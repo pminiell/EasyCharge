@@ -2,9 +2,9 @@ import React from 'react';
 
 const Card = ({ className, children }) => (
   <div
-    className={`p-12 rounded-lg border border-solid border-primary ${className}`}
+    className={`p-12 rounded-lg border border-solid border-primary bg-primary-lighter ${className}`}
     style={{
-      boxShadow: '0 10px 28px rgba(0,0,0,.08)'
+      boxShadow: '0 10px 28px rgba(0,0,0,.08)',
     }}
   >
     {children}

@@ -1,6 +1,7 @@
 import React from 'react';
-import Button from '../components/Button';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Card from '../components/Card';
+import ContactForm from '../components/ContactForm';
 import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
 import Layout from '../components/layout/Layout';
@@ -8,6 +9,8 @@ import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import SvgCharts from '../svg/SvgCharts';
+import { FaChargingStation } from '@react-icons/all-files/fa/FaChargingStation';
+import { MdAllInclusive } from '@react-icons/all-files/md/MdAllInclusive';
 
 const Index = () => (
   <>
@@ -20,7 +23,9 @@ const Index = () => (
           beatae natus eveniet ratione temporibus aperiam harum
         </p>
         <p className="mt-8 md:mt-12">
-          <Button size="lg">Get Started</Button>
+          <AnchorLink className="p-4 bg-primary rounded-md text-white" href="#contact">
+            Get Started
+          </AnchorLink>
         </p>
         <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
       </section>
@@ -28,7 +33,7 @@ const Index = () => (
       <SplitSection
         id="services"
         primarySlot={
-          <div className="lg:pr-32 xl:pr-48">
+          <div className="lg:pr-32 xl:pr-48 mt-4">
             <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
             <p className="mt-8 text-xl font-light leading-relaxed">
               Our team of enthusiastic marketers will analyse and evaluate how your company stacks
@@ -36,7 +41,11 @@ const Index = () => (
             </p>
           </div>
         }
-        secondarySlot={<SvgCharts />}
+        secondarySlot={
+          <>
+            <FaChargingStation size={200} fill="#C62F14" />
+          </>
+        }
       />
 
       <SplitSection
@@ -67,7 +76,7 @@ const Index = () => (
             </p>
           </div>
         }
-        secondarySlot={<SvgCharts />}
+        secondarySlot={<MdAllInclusive size={200} fill="#C62F14" />}
       />
 
       <section id="stats" className="py-20 lg:pt-32">
@@ -92,7 +101,7 @@ const Index = () => (
           <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
             <div className="flex-1 px-3">
               <Card className="mb-8">
-                <p className="font-semibold text-xl">Service One</p>
+                <p className="font-semibold text-xl">Mike</p>
                 <p className="mt-4">
                   An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                   velna vitae auctor integer.
@@ -101,7 +110,7 @@ const Index = () => (
             </div>
             <div className="flex-1 px-3">
               <Card className="mb-8">
-                <p className="font-semibold text-xl">Service Two</p>
+                <p className="font-semibold text-xl">Tanya</p>
                 <p className="mt-4">
                   An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                   velna vitae auctor integer.
@@ -110,7 +119,7 @@ const Index = () => (
             </div>
             <div className="flex-1 px-3">
               <Card className="mb-8">
-                <p className="font-semibold text-xl">Service Three</p>
+                <p className="font-semibold text-xl">Garrett</p>
                 <p className="mt-4">
                   An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                   velna vitae auctor integer.
@@ -134,15 +143,13 @@ const Index = () => (
           </div>
         </div>
       </section>
-      <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
+      <section className="container mx-auto mt-10 bg-gray-200 rounded-lg text-center" id="contact">
         <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
         <p className="mt-8 text-xl font-light">
           Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus
           in.
         </p>
-        <p className="mt-8">
-          <Button size="xl">Get Started Now</Button>
-        </p>
+        <ContactForm />
       </section>
     </Layout>
   </>

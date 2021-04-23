@@ -1,7 +1,7 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Button from '../Button';
-import { BsLightning } from "@react-icons/all-files/bs/BsLightning";
+import { BsLightning } from '@react-icons/all-files/bs/BsLightning';
 
 const Header = () => (
   <>
@@ -26,8 +26,8 @@ const Header = () => (
             Purpose
           </AnchorLink>
         </div>
-        <div className="hidden md:block">
-          <Button className="text-sm">Contact Us</Button>
+        <div className="mt-2 hidden md:block">
+          <AnchorLink className="p-4 bg-primary rounded-md text-white" href="#contact">Contact Us</AnchorLink>
         </div>
       </div>
     </header>

@@ -17,6 +17,26 @@ const encode = (data) => {
     .join('&');
 };
 
+const handleSubmit = (values, { setSubmitting, resetForm }) => {
+  fetch('/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: encode({
+      'form-name': 'contact',
+      ...values,
+    }),
+  })
+    .then(() => {
+      setSubmitting(false);
+      alert('Succesfully submitted !');
+      resetForm();
+    })
+    .catch((error) => {
+      alert(error);
+      setSubmitting(false);
+    });
+};
+
 const ContactForm = () => (
   <div className="flex flex-col items-center justify-center">
     <div className="bg-primary-lighter border border-primary-darker m-10 p-10 rounded-2xl shadow-lg">
@@ -26,33 +46,22 @@ const ContactForm = () => (
       </p>
       <Formik
         initialValues={{
+          'form-name': 'contact',
           name: '',
           email: '',
           message: '',
         }}
         validationSchema={ContactSchema}
-        onSubmit={(values, { setSubmitting, resetForm }) => {
-          fetch('/', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: encode({
-              'form-name': 'contact',
-              ...values,
-            }),
-          })
-            .then(() => {
-              setSubmitting(false);
-              alert('Succesfully submitted !');
-              resetForm();
-            })
-            .catch((error) => {
-              alert(error);
-              setSubmitting(false);
-            });
-        }}
+        onSubmit={handleSubmit}
       >
         {({ errors, touched, validateForm, isSubmitting, handleSubmit }) => (
-          <Form className="flex flex-col w-300" action="POST" onSubmit={handleSubmit}>
+          <Form
+            name="contact"
+            data-netlify="true"
+            className="flex flex-col w-300"
+            method="POST"
+            onSubmit={handleSubmit}
+          >
             <input type="hidden" name="form-name" value="contact" />
             <label htmlFor="name">
               Name:
@@ -95,7 +104,6 @@ const ContactForm = () => (
               type="submit"
               className="text-white font-bold tracking-wider py-2 rounded cursor-pointer transition-all  bg-primary hover:bg-primary-darker"
               disabled={isSubmitting}
-              onClick={() => validateForm().then(() => console.log('blah'))}
             >
               Send
             </button>

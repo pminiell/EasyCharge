@@ -35,6 +35,8 @@ const handleSubmit = (values, { setSubmitting, resetForm }) => {
       alert(error);
       setSubmitting(false);
     });
+
+    e.preventDefault();
 };
 
 const ContactForm = () => (

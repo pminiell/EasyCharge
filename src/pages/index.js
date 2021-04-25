@@ -143,7 +143,7 @@ const Index = () => (
           </div>
         </div>
       </section>
-      <section className="container mx-auto mt-10 bg-gray-200 rounded-lg text-center" id="contact">
+      <section className="container mx-auto mt-10 rounded-lg text-center" id="contact">
         <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
         <p className="mt-8 text-xl font-light">
           Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus

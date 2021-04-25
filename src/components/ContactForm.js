@@ -46,7 +46,6 @@ const ContactForm = () => (
       </p>
       <Formik
         initialValues={{
-          'form-name': 'contact',
           name: '',
           email: '',
           message: '',
@@ -58,8 +57,10 @@ const ContactForm = () => (
           <Form
             name="contact"
             data-netlify="true"
+            data-netlify-honeypot="bot-field"
             className="flex flex-col w-300"
-            method="POST"
+            method="post"
+            action="/"
             onSubmit={handleSubmit}
           >
             <input type="hidden" name="form-name" value="contact" />

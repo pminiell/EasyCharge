@@ -1,8 +1,9 @@
 import React from 'react';
+import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin';
 
 const Card = () => (
   <div>
-    <div className="relative items-center justify-center">
+    <div className="items-center justify-center">
       <h1 className="text-center text-2xl font-bold p-4 bg-primary-lighter text-primary">People</h1>
       <div className="lg:flex items-center container mx-auto my-auto">
         <div className="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8">
@@ -20,10 +21,12 @@ const Card = () => (
             </p>
             <div className="mt-5">
               <a
-                href=""
-                className="border border-primary hover:bg-primary rounded-full py-2 px-3 font-semibold hover:text-white bg-primary-lighter text-primary"
+                href="https://www.linkedin.com/in/mike-elwood-6b051530/ 
+                "
+                rel="noreferrer noopener"
+                target="_blank"
               >
-                Read More
+                <FaLinkedin size={24} color="#006192" />
               </a>
             </div>
           </div>
@@ -43,10 +46,13 @@ const Card = () => (
             </p>
             <div className="mt-5">
               <a
-                href=""
-                className="border border-primary hover:bg-primary rounded-full py-2 px-3 font-semibold hover:text-white bg-primary-lighter text-primary"
+                href="https://www.linkedin.com/in/tanyakrackovic/
+ 
+                "
+                rel="noreferrer noopener"
+                target="_blank"
               >
-                Read More
+                <FaLinkedin size={24} color="#006192" />
               </a>
             </div>
           </div>
@@ -66,10 +72,13 @@ const Card = () => (
             </p>
             <div className="mt-5">
               <a
-                href=""
-                className="border border-primary hover:bg-primary rounded-full py-2 px-3 font-semibold hover:text-white bg-primary-lighter text-primary"
+                href="https://www.linkedin.com/in/garrett-vanderwyst/
+ 
+                "
+                rel="noreferrer noopener"
+                target="_blank"
               >
-                Read More
+                <FaLinkedin size={24} color="#006192" />
               </a>
             </div>
           </div>

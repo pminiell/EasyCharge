@@ -120,9 +120,9 @@ const Index = () => (
         <div className="container mx-auto text-center">
           <LabelText className="text-primary">Experienced Collaborators</LabelText>
           <div className="text-primary-darker font-semibold mt-2">
-            Having been in the world of Sustainability for a collective means we have worked with
-            many companies and so let us have some fun and start with the most recent and make our
-            way back to the early days.{' '}
+            Our extensive experience in the world of sustainability has allowed us to partner and
+            work closely with the pillars of the industry. We have experience working with the best
+            and want to continue working with the best. No matter the size or complexity of the problems.
           </div>
           <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
             <div className="w-full sm:w-1/3">

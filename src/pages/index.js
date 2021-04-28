@@ -28,13 +28,13 @@ const Index = () => (
           <span className="text-primary font-semibold">EASY</span> provides organizations entry into
           a new world where sustainability is not just a word it is a call to action.{' '}
           <span className="text-primary font-semibold">EASY</span> will work with{' '}
-          <span className="text-primary font-semibold">YOUR</span> Organization to bring you into
-          the space and reduce the cost of entry or your tuition into this burgeoning world of
-          opportunity.
+          <span className="text-primary font-semibold">YOUR</span> Organization to expand in the
+          sustainability space and reduce the tuition cost paid to expand into this burgeoning world
+          of opportunity.
         </p>
         <h1 className="text-primary font-semibold text-lg mt-2">
-          If you want to make this world a more sustainable ecosystem and you are at a loss on how
-          to do so, then EASY is your answer.
+          Looking to help create a more sustainable ecosystem? At a loss on how to do so? EASY is
+          your answer.
         </h1>
         <p className="mt-8 md:mt-12">
           <AnchorLink className="p-4 bg-primary rounded-md text-white" href="#contact">
@@ -42,7 +42,8 @@ const Index = () => (
           </AnchorLink>
         </p>
         <p className="mt-8 text-gray-600">
-          Our passion drives our purpose to make the world a better place.
+          Our purpose is to build resiliency, reduce emissions and make sustainability{' '}
+          <span className="text-primary font-semibold">EASY</span>
         </p>
       </section>
 
@@ -54,9 +55,9 @@ const Index = () => (
               Market Expertise
             </h3>
             <p className="mt-8 text-xl text-primary light leading-relaxed">
-              Clean Energy is the solution to many of the Climate Change problems plaguing our
-              world. EASY has access to everything you need to deploy or enter and succeed in this
-              blossoming industry.
+              Clean energy is the solution to many of the climate change problems plaguing our
+              world. EASY has the experience and access to everything needed to be efficient and
+              succeed in this blossoming industry.
             </p>
           </div>
         }
@@ -77,9 +78,9 @@ const Index = () => (
             <p className="text-primary mt-8 text-lg lg:text-xl leading-relaxed">
               Hardware and software solutions for EV Charging infrastructure. Supporting resilience
               programs and Micro-Grids through Energy Storage Systems (ESS). Deployment, and
-              connections to the vehicle manufacturers and many solutions coming to market. Final
-              and last mile delivery as well as transit systems and the need for all Fleets to do a
-              review of existing rolling assets and how to move forward into an Ecosystem of
+              connections to vehicle manufacturers and leading-edge solutions. Electrification
+              solutions for last mile, delivery, and transit systems. Fleets Electrification Audits
+              of existing rolling assets and growth plans on moving forward in an Ecosystem of
               Electrification.
             </p>
           </div>
@@ -121,8 +122,9 @@ const Index = () => (
           <LabelText className="text-primary">Experienced Collaborators</LabelText>
           <div className="text-primary-darker font-semibold mt-2">
             Our extensive experience in the world of sustainability has allowed us to partner and
-            work closely with the pillars of the industry. We have experience working with the best
-            and want to continue working with the best. No matter the size or complexity of the problems.
+            work closely with pillars of the industry. Experience working with the best and
+            continued partnership with the market leaders. No matter the size or complexity of
+            hurdles.
           </div>
           <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
             <div className="w-full sm:w-1/3">
@@ -151,13 +153,12 @@ const Index = () => (
       <section id="people" className="py-12 lg:pb-40 lg:pt-48">
         <Card />
       </section>
-
+      <h1 className="text-center text-2xl font-bold p-4 bg-primary-lighter text-primary">
+        Let's make sustainability Easy
+      </h1>
       <section className="container mx-auto mt-10 rounded-lg text-center" id="contact">
         <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
-        <p className="mt-8 text-xl font-light">
-          Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus
-          in.
-        </p>
+
         <ContactForm />
       </section>
     </Layout>

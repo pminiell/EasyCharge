@@ -22,9 +22,6 @@ const Header = () => (
           <AnchorLink className="px-4 font-semibold" href="#stats">
             Partners
           </AnchorLink>
-          <AnchorLink className="px-4 font-semibold" href="#testimonials">
-            Purpose
-          </AnchorLink>
         </div>
         <div className="mt-2 hidden md:block">
           <AnchorLink className="p-4 bg-primary rounded-md text-white" href="#contact">Contact Us</AnchorLink>

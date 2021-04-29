@@ -65,7 +65,7 @@ export default [
   {
     id: 12,
     company: 'ECamiuon',
-    customerImage: 'https://tse2.mm.bing.net/th?id=OIP._YbNguVPJBZUSwSTzbIy4wHaHa&pid=Api',
+    customerImage: 'https://i.imgur.com/ufArv2S.jpg',
   },
   {
     id: 13,

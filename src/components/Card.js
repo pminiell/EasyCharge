@@ -7,7 +7,7 @@ const Card = () => (
       <h1 className="text-center text-2xl font-bold p-4 bg-primary-lighter text-primary">People</h1>
       <div className="lg:flex items-center container mx-auto my-auto">
         <div className="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8">
-          <img
+          {/* <img
             src="https://media-exp1.licdn.com/dms/image/C5603AQFzuLJ8iv5FwQ/profile-displayphoto-shrink_200_200/0/1567630797727?e=1625097600&v=beta&t=q2LoLdpnodaA_EGYu07gWmfmTpfmHJTv_c2cxHsrz3k"
             alt=""
             className="h-48 w-48 overflow-hidden rounded-lg"
@@ -28,11 +28,11 @@ const Card = () => (
               >
                 <FaLinkedin size={24} color="#006192" />
               </a>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
         <div className="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8">
-          <img
+          {/* <img
             src="https://media-exp1.licdn.com/dms/image/C4E03AQG9RjqDgPWBpQ/profile-displayphoto-shrink_200_200/0/1554919153360?e=1625097600&v=beta&t=kBhuI2TObRfgz3aSxBC6qAosHI_rSOiA0_pOmZeM2RY"
             alt=""
             className="h-48 w-48 overflow-hidden rounded-lg"
@@ -54,8 +54,8 @@ const Card = () => (
               >
                 <FaLinkedin size={24} color="#006192" />
               </a>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
         <div className="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8">
           <img

@@ -9,19 +9,19 @@ export default [
     id: 2,
     company: 'EVStructure',
     customerImage:
-      'https://lh4.googleusercontent.com/06Ff425fzjH2WjtL61m2phjLR5-HOeuBbyJLzSdS-MiYL3EIng9kiAsbd-8HFYHMJFqjJ2ircYlbBnzulk6ReX0ZqS0kRK9RueOjHzM',
+      'http://evsdev.444.media/wp-content/uploads/2021/06/New-logo-clear-BGcropped-400px.png',
   },
   {
     id: 3,
     company: 'BlueSkiy Solar',
     customerImage:
-      'https://lh6.googleusercontent.com/lwMdHhzieMzekUHgviHQ3O38LlBrbKSqCUDmYzOi47rZdEzSN7y5HWogF5o_ihUoeuTVa7IeDIMyt1HGlOwzl2ZZZ6tFok0DyQqfBfSK',
+      'https://media-exp1.licdn.com/dms/image/C560BAQHxE2ZrQvJ66g/company-logo_200_200/0/1525120975928?e=2159024400&v=beta&t=E_iLz0nBkfo7bYpo_KhtsPhkl9LN6_tCh3TPn13m7bU',
   },
   {
     id: 4,
     company: 'Electrify EVSE',
     customerImage:
-      'https://lh4.googleusercontent.com/2KMM--gnokKPXFt6SHh1d68CiKytaOohU5GuOAW9WCYYWgz24Li1Xchig3DUVlwAOdjt_0weKnHDKViKh938kwN_Cyi_gYW4m5-iVhM',
+      'https://calevip.org/sites/default/files/2020-09/Electrify%20EVSE%20Logo.png',
   },
   {
     id: 5,
@@ -31,59 +31,53 @@ export default [
   },
   {
     id: 6,
-    company: 'Tritium',
-    customerImage:
-      'https://lh3.googleusercontent.com/vE7bEQWOGIzxfZbm4XF0rNK3Yp3kCeGd0PUNyAzQ5q878Lbq6E0cH38rcadkD3Y6XIDChx2rVcKvQdlxwXD_681xvronGCEwOvGtQLE',
-  },
-  {
-    id: 7,
     company: 'ABB',
     customerImage: 'https://pbs.twimg.com/profile_images/831851174030692353/TkV1Ya42_400x400.jpg',
   },
   {
-    id: 8,
+    id: 7,
     company: 'Delta Electronics',
     customerImage:
       'http://www.logosurfer.com/wp-content/uploads/2018/03/Delta20Electronics20Logo.jpg',
   },
   {
-    id: 9,
+    id: 8,
     company: 'Argent',
     customerImage: 'https://tse2.mm.bing.net/th?id=OIP.bDDdM7yehFI29MMojEXsmAAAAA&pid=Api',
   },
   {
-    id: 10,
+    id: 9,
     company: 'Calstart',
     customerImage: 'https://calstart.org/wp-content/uploads/2018/06/CalstartLogoNEW.gif',
   },
   {
-    id: 11,
+    id: 10,
     company: 'EDTA',
     customerImage: 'https://www.eastpennmanufacturing.com/wp-content/uploads/EDTA-logo.png',
   },
 
   {
-    id: 12,
+    id: 11,
     company: 'ECamiuon',
     customerImage: 'https://i.imgur.com/ufArv2S.jpg',
   },
   {
-    id: 13,
+    id: 12,
     company: 'Tesla',
     customerImage: 'https://tse4.mm.bing.net/th?id=OIP.QFq7NM3J6559nsuBwDfgbwHaHA&pid=Api',
   },
   {
-    id: 14,
+    id: 13,
     company: 'Ford',
     customerImage: 'https://tse4.mm.bing.net/th?id=OIP.WIYVrbCt3-u4NMI9DeqarQHaEo&pid=Api',
   },
   {
-    id: 15,
+    id: 14,
     company: 'GM',
     customerImage: 'https://tse3.mm.bing.net/th?id=OIP.nRpo5S4WpYw31FI2iJAeeQHaHa&pid=Api',
   },
   {
-    id: 16,
+    id: 15,
     company: 'ChargeLab',
     customerImage: 'https://tse1.mm.bing.net/th?id=OIP.EcF6jP_c5LwEcQLbSalKUQHaHa&pid=Api',
   },

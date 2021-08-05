@@ -58,11 +58,11 @@ const Card = () => (
           {/* </div> */}
         </div>
         <div className="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8">
-          <img
-            src="https://media-exp1.licdn.com/dms/image/C5603AQFbjUKm7hl_Tw/profile-displayphoto-shrink_200_200/0/1616170009306?e=1625097600&v=beta&t=BnNzhxjDBiO3qvViyXto6O_7ZydjfU2TNusKjZ1TZQY"
+          {/* <img
+            src="https://media-exp1.licdn.com/dms/image/C5603AQFbjUKm7hl_Tw/profile-displayphoto-shrink_200_200/0/1616170009306?e=1633564800&v=beta&t=U-E1L3QckZOyWNLFCoQRSsIyaN0Wn8z8jcQ1C28HtbQ"
             alt=""
             className="h-48 w-48 overflow-hidden rounded-lg"
-          ></img>
+          ></img> */}
           <div className="p-4">
             <h3 className="font-medium text-primary  text-lg my-2 uppercase">Garrett Vanderwyst</h3>
             <p className="text-justify">
